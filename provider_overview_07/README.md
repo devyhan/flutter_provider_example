@@ -1,4 +1,4 @@
-# provider_overview_05
+# provider_overview_07
 
 A new Flutter project.
 
@@ -14,17 +14,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-## Provider의 Extensions
-
-### `context.read<T>() -> T`
-
-`context.read<T>() -> T`는 `Provider.of<T>(context, listen: false)` 와 같은 동작을 실행한다.
-
-### `context.watch<T>() -> T`
-
-`context.watch<T>() -> T`는 `Provider.of<T>(context)`와 같은 동작을 실행한다.
-
-### `context.select<T, R>(R selector(T value)) -> R`
-
-특정 property에 변화만 listen하기 위해 사용한다.
